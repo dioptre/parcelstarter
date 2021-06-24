@@ -1,0 +1,24 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html",
+    "build:nominify": "parcel build index.html --no-minify",
+    "build:nocache": "parcel build index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.0.0-alpha-386e8f2ea-20210624",
+    "react-dom": "^18.0.0-alpha-386e8f2ea-20210624"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.0.0-nightly.734",
+    "@parcel/transformer-image": "2.0.0-nightly.2356",
+    "@parcel/transformer-sass": "2.0.0-nightly.734"
+  }
+}
