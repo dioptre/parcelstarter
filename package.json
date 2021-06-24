@@ -9,6 +9,7 @@
     "build:nominify": "parcel build index.html --no-minify",
     "build:nocache": "parcel build index.html --no-cache"
   },
+  "browserslist": "> 0.2%",
   "keywords": [],
   "author": "",
   "license": "ISC",
